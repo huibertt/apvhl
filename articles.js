@@ -552,9 +552,7 @@ export const articles = [
         list: [
           "Een gangwar vraag je aan bij de onderwereld coördinator.",
           "Het is alleen toegestaan een wraakactie/gangwar te starten als je in roleplay bewijs hebt verzameld, en die ook kan overleggen.",
-          "Gangwars duren 48 uur, en daarna vervallen <strong>alle</strong> redenen.",
-          "Kills van politie en doodgaan door verkeersongelukken tellen ook mee, gezien jij dan dood gaat tijdens de gangwar. Dood = dood, en is dus de new life rule.",
-          "Indien je onbewust voor een 2de keer wordt doodgeschoten in een gangwar omdat je op een bepaalde plek bent, is dit op eigen risico. Indien men er vanaf weet en je bewust nog een keer shoot, zal dit vallen onder RDM."
+          "Een gangwar kan inclusief ally uitgevochten worden, als de rivaliserende gang hiermee akkoord is."
         ],
         punishmentCategory: "2"
       },
@@ -740,18 +738,27 @@ export const articles = [
     label: "Artikel 34: Burger naar Politie",
     punishmentCategory: "3",
     list: [
+      "Het is niet toegestaan om in een ruim overtal scenario een agent dood te schieten, tenzij:",
+      {
+        sublist: [
+          "Politie met een overduidelijke meerderheid is.",
+          "Politie niet mee werkt.",
+        ]
+      },
       "Het is niet toegestaan om zonder reden een overheidsvoertuig te stelen.",
-      "Het is niet toegestaan om de politieagent zonder reden of uit wraak te vermoorden, beledigen of niet mee te werken aan de roleplay van een politieagent."
+      "Het is niet toegestaan om de politieagent zonder reden of uit wraak te vermoorden, beledigen of niet mee te werken aan de roleplay van een politieagent.",
+      "Het is niet toegestaan om het politiebureau te campen en te wachten tot er agenten naar buiten komen.",
     ],
     subarticles: [
       {
         label: "Artikel 34A: Politie naar burger",
         list: [
           "Het is niet toegestaan om in een ruim overtal scenario, zonder dreiging een burger dood te schieten. Echter blijft dit altijd de eigen inschatting van de politieambtenaar maar schending hiervan kan leiden tot interne sancties.",
+          "Het is niet toegestaan om iemand dood te schieten die geboeid is.",
           "Het is niet toegestaan om in dienst AFK te zijn/te ghosten om salaris te ontvangen.",
           "Het is verplicht in de porto te zitten wanneer je in dienst bent.",
           "Het leaken van documenten/informatie, ook na het uit dienst treden/ontslag, is niet toegestaan en zal worden bestraft met een straf volgens categorie 6.",
-          "Het samenwerken met of in opdracht werken van de onderwereld is niet toegestaan, en valt onder corruptie."
+          "Het samenwerken met of in opdracht werken van de onderwereld is niet toegestaan, en valt onder corruptie.",
         ],
         punishmentCategory: "3"
       }

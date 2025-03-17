@@ -59,7 +59,7 @@ body {
 
 .search-section {
   margin: 40px auto 20px auto;
-  max-width: 900px;
+  max-width: 900px; 
   padding: 0 20px;
   text-align: center;
 }
@@ -72,7 +72,7 @@ body {
 .search-container input[type="text"] {
   width: 100%;
   padding: 12px 15px;
-  padding-left: 40px;
+  padding-left: 40px;      
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
@@ -110,16 +110,24 @@ body {
   margin-bottom: 10px;
 }
 
-.article p,
-.subarticle p {
-  line-height: 1.5;
-  margin-bottom: 10px;
+.sublist-parent {
+  list-style-type: none;   
+  border-left: 3px solid #007bff;
+  padding-left: 15px;
+  margin-top: 10px;
+
+}
+
+.sublist-parent > ul {
+  list-style: disc inside;
+  margin: 5px 0 10px 0;
+  padding-left: 0;  
 }
 
 .subarticle {
-  margin: 20px 0 20px 20px;
+  margin-left: 10px;
+  padding-left: 15px;
   border-left: 3px solid #007bff;
-  padding-left: 10px;
 }
 
 .subarticle h3 {
@@ -128,52 +136,42 @@ body {
   margin-bottom: 5px;
 }
 
-.article ul,
-.subarticle ul {
-  list-style-type: disc;
-  list-style-position: outside;
-  margin-left: 20px;
+.sublist-parent {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 5px;     
+  padding-left: 15px; 
+  border-left: 3px solid #007bff; 
+}
+
+.sublist-parent > ul {
+  list-style: disc inside;
+  margin-left: 20px; 
+  margin-bottom: 10px; 
+}
+
+.article p, .subarticle p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.article ul, .subarticle ul {
+  list-style: disc inside;
+  margin-left: 10px; 
   margin-bottom: 10px;
   padding-left: 0;
 }
 
-.article ul li,
-.subarticle ul li {
+.article ul li, .subarticle ul li {
   margin-bottom: 5px;
-}
-
-.article ul ul,
-.subarticle ul ul {
-  margin-left: 20px;
-  list-style-type: circle;
-}
-
-.article ul ul ul,
-.subarticle ul ul ul {
-  margin-left: 20px;
-  list-style-type: square;
-}
-
-.sublist-parent {
-  list-style-type: none;
-  border-left: 3px solid #007bff;
-  margin: 10px 0;
-  margin-left: 20px;
-  padding-left: 10px;
-}
-
-.sublist-parent ul {
-  margin-left: 20px;
-  list-style-type: disc;
-  list-style-position: outside;
 }
 
 .punishment-category {
   position: relative;
   cursor: help;
-  font-size: 0.8em;
+  font-size: 0.8em; 
   color: #666;
-  margin-left: 5px;
+  margin-left: 5px; 
 }
 
 .punishment-category::after {
@@ -183,6 +181,7 @@ body {
   bottom: 120%;
   left: 50%;
   transform: translateX(-50%);
+  background: #333;
   color: #fff;
   padding: 6px 8px;
   border-radius: 4px;

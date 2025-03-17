@@ -1,38 +1,14 @@
 import { articles } from './articles.js';
 import { punishmentCategories } from './punishments.js';
 
-// Recursieve functie om een lijst (en eventuele geneste lijsten) te renderen
-function renderList(items) {
-  const ul = document.createElement('ul');
-  items.forEach(item => {
-    const li = document.createElement('li');
-    if (typeof item === 'string') {
-      li.innerHTML = item;
-    } else if (typeof item === 'object' && item !== null) {
-      // Als er een "sublist" of "list" property is, render deze recursief
-      if (item.sublist && Array.isArray(item.sublist)) {
-        li.appendChild(renderList(item.sublist));
-      } else if (item.list && Array.isArray(item.list)) {
-        li.appendChild(renderList(item.list));
-      } else {
-        // Mocht het object geen geneste lijst bevatten, toon dan de inhoud op een veilige manier
-        li.innerHTML = JSON.stringify(item);
-      }
-    }
-    ul.appendChild(li);
-  });
-  return ul;
-}
-
 function renderArticles(articlesToRender) {
   const container = document.getElementById('articles');
-  container.innerHTML = ''; // Leegmaken van de container
+  container.innerHTML = '';
   
   articlesToRender.forEach(article => {
     const articleEl = document.createElement('article');
     articleEl.classList.add('article');
     
-    // Titel + strafcategorie (met custom tooltip)
     const header = document.createElement('h2');
     header.textContent = article.label;
     
@@ -47,19 +23,35 @@ function renderArticles(articlesToRender) {
     }
     articleEl.appendChild(header);
     
-    // Beschrijving
     if (article.description) {
       const desc = document.createElement('p');
-      desc.innerHTML = article.description; // innerHTML voor HTML-tags
+      desc.innerHTML = article.description;
       articleEl.appendChild(desc);
     }
     
-    // Hoofd-lijstitems (article.list) met recursieve renderList functie
     if (article.list && Array.isArray(article.list)) {
-      articleEl.appendChild(renderList(article.list));
+      const ul = document.createElement('ul');
+      article.list.forEach(item => {
+        if (typeof item === 'string') {
+          const li = document.createElement('li');
+          li.innerHTML = item;
+          ul.appendChild(li);
+        } else if (typeof item === 'object' && item.sublist && Array.isArray(item.sublist)) {
+          const li = document.createElement('li');
+          li.classList.add('sublist-parent');
+          const nestedUl = document.createElement('ul');
+          item.sublist.forEach(nestedItem => {
+            const nestedLi = document.createElement('li');
+            nestedLi.innerHTML = nestedItem;
+            nestedUl.appendChild(nestedLi);
+          });
+          li.appendChild(nestedUl);
+          ul.appendChild(li);
+        }
+      });
+      articleEl.appendChild(ul);
     }
     
-    // Subartikelen (article.subarticles)
     if (article.subarticles && Array.isArray(article.subarticles)) {
       article.subarticles.forEach(sub => {
         const subarticleEl = document.createElement('div');
@@ -81,26 +73,29 @@ function renderArticles(articlesToRender) {
         
         if (sub.description) {
           const subDesc = document.createElement('p');
-          subDesc.innerHTML = sub.description;
+          subDesc.textContent = sub.description;
           subarticleEl.appendChild(subDesc);
         }
         
         if (sub.list && Array.isArray(sub.list)) {
-          subarticleEl.appendChild(renderList(sub.list));
+          const subUl = document.createElement('ul');
+          sub.list.forEach(subItem => {
+            const subLi = document.createElement('li');
+            subLi.textContent = subItem;
+            subUl.appendChild(subLi);
+          });
+          subarticleEl.appendChild(subUl);
         }
         articleEl.appendChild(subarticleEl);
       });
     }
     
-    // Voeg het artikel toe aan de container
     container.appendChild(articleEl);
   });
 }
 
-// Eerst alle artikelen renderen
 renderArticles(articles);
 
-// Live zoekfunctionaliteit
 const searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', (event) => {
   const query = event.target.value.toLowerCase();
@@ -126,13 +121,7 @@ searchInput.addEventListener('input', (event) => {
         const subDescription = sub.description && sub.description.toLowerCase().includes(query);
         let subList = false;
         if (sub.list && Array.isArray(sub.list)) {
-          subList = sub.list.some(item => {
-            if (typeof item === 'string') {
-              return item.toLowerCase().includes(query);
-            } else if (typeof item === 'object' && item.sublist && Array.isArray(item.sublist)) {
-              return item.sublist.some(nestedItem => nestedItem.toLowerCase().includes(query));
-            }
-          });
+          subList = sub.list.some(item => item.toLowerCase().includes(query));
         }
         return subLabel || subDescription || subList;
       });

@@ -551,7 +551,7 @@ export const articles = [
         label: "Artikel 24A: Gangwars",
         list: [
           "Een gangwar vraag je aan bij de onderwereld coördinator.",
-          "Het is alleen toegestaan een wraakactie/gangwar te starten als je in roleplay bewijs hebt verzameld, en die ook kan overleggen.",
+          "Het is alleen toegestaan een wraakactie/gangwar te starten als je in roleplay bewijs hebt verzameld, en die ook kunt delen met de onderwereld coördinator.",
           "Een gangwar kan inclusief ally uitgevochten worden, als de rivaliserende gang hiermee akkoord is."
         ],
         punishmentCategory: "2"

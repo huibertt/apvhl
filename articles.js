@@ -651,7 +651,7 @@ export const articles = [
     label: "Artikel 29: Politie en het eiland",
     punishmentCategory: "2",
     list: [
-      "Het is niet toegestaan om vanaf het eiland op patrouillerende schepen of helicopters van de politie te schieten.",
+      "Het is niet toegestaan om vanaf het eiland op patrouillerende schepen of helikopters van de politie te schieten.",
       "Het is toegestaan voor de DSI om operaties op het eiland uit te voeren.",
       "De politie noodhulp mag niet op het eiland komen, tenzij:",
       {
@@ -789,7 +789,7 @@ export const articles = [
       "Het weggeven en/of aannemen van goederen, van een speler die stopt of gestopt is, is niet toegestaan en zal worden bestraft met een account wipe en permanente ban."
   },
   {
-    label: "Artikel 38: Liegen tegen staff",
+    label: "Artikel 38: Medewerking in staffzaak",
     punishmentCategory: "5",
     list: [
       "Het is niet toegestaan om te liegen tegen staff.",

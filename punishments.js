@@ -1,7 +1,7 @@
 
 export const punishmentCategories = [
     "Categorie 0: Geen straf. (placeholder)",
-    "Categorie 1: Warn / ban tot 8 uur / adminjail",
+    "Categorie 1: Warn / ban tot 8 uur / taakstraf",
     "Categorie 2: Ban van 24 uur",
     "Categorie 3: Ban van 2 dagen",
     "Categorie 4: Ban van 3 dagen",

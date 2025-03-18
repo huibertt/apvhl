@@ -290,6 +290,7 @@ export const articles = [
       "Het rammen van andere burgers.",
       "Het rijdend blokkeren van op jou afkomende voertuigen. Bij een blokkade moet jij <strong>altijd stilstaan</strong>.",
       "Het pitten op een onjuiste manier.",
+      "Het pitten boven een snelheid van 130 km/h.",
       {
         sublist: [
           "Afhankelijk van de ernst van de situatie kan een stafflid een hogere sanctie opleggen."
@@ -454,7 +455,6 @@ export const articles = [
       "Indien je onverhoopt uit de server gaat, heb je maximaal 5 minuten om terug te komen.",
       "Kom je terug en is er niemand? Dan ben je verplicht om 10 minuten op die locatie te wachten en een report te maken.",
       "Indien je echt niet langer kan blijven, dien je te overleggen met personen die meedoen aan jouw scenario, en een report te maken.",
-      "Het pitten op een onjuiste manier.",
       {
         sublist: [
           "Ook het verlaten van de stad terwijl je dood ligt wordt gezien als combatloggen, en mag pas weer als je door de Ambulance bent geholpen of bent gerespawned."

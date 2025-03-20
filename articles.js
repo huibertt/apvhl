@@ -393,7 +393,7 @@ export const articles = [
           "Onrealistisch offroad rijden.",
           "Het rammen of onnodig beuken van voertuigen.",
           "Het gebruik maken van obstakels om ergens overheen te jumpen.",
-          "Wanneer je 1 of meerdere lekke banden hebt, mag je niet harder dan 150 km/h rijden."
+          "Wanneer je 1 of meerdere lekke banden hebt, mag je niet harder dan 130 km/h rijden."
         ],
         punishmentCategory: "2"
       },

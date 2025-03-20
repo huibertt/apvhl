@@ -433,7 +433,8 @@ export const articles = [
     punishmentCategory: "1",
     list: [
       "Het is niet toegestaan om de beginnersoutfit/standaard outfit te dragen. Iedereen dient een volledige en realistische outfit te hebben, waarin ook je armen en benen zichtbaar zijn.",
-      "Het is je eigen verantwoordelijkheid om je kleding aan te passen als bijvoorbeeld je armen of benen niet zichtbaar zijn."
+      "Het is je eigen verantwoordelijkheid om je kleding aan te passen als bijvoorbeeld je armen of benen niet zichtbaar zijn.",
+      "Het dragen van een combathelm is niet toegestaan.",
     ],
     subarticles: [
       {

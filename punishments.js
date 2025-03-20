@@ -10,6 +10,6 @@ export const punishmentCategories = [
     "Categorie 7: Ban van 1 maand",
     "Categorie 8: Permanente ban",
     "Categorie 9: Account-wipe",
-    "Categorie 10: Geen unban mogelijk (GUM) + discord ban"
+    "Categorie 10: Geen unban mogelijk (GUM) + discord ban",
     "Categorie 11: Gangstrike"
 ];

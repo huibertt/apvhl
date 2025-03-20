@@ -576,7 +576,7 @@ export const articles = [
           "Het verbreken van bovenstaande regels zal leiden tot een gang strike.",
           "Het is voor een officiële gang niet toegestaan een 2de gang te creeëren om hieruit een groei te kunnen bewerkstelligen."
         ],
-        punishmentCategory: "1"
+        punishmentCategory: "11"
       }
     ]
   },
@@ -674,13 +674,14 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 31: Fouilleren",
+    label: "Artikel 31: Fouilleren en F6",
     punishmentCategory: "2",
     list: [
       "Je kunt alleen iemand fouilleren wanneer je in het bezit bent van een wapen.",
       "Bij het innemen van wapens dien je het wapen fysiek gezien te hebben. Je mag ook het wapen pakken als diegene gezichtsbedekkende kleding, een kogelwerend vest of een holster draagt.",
       "Je mag geen kennis hebben van de illegale spullen die iemand op zak heeft, als hij niet voldoet aan de eisen van het afnemen. Dus als iemand een pistool op zak heeft die jij niet hebt gezien, maar pas tijdens het fouilleren aantreft, heb jij hier geen kennis van. Je mag deze wel fictief afpakken in /me om zodoende een veilige manier voor jezelf te creëren om het gebied te verlaten.",
-      "Nadat je iemand gefouilleerd hebt, is het niet toegestaan diegene te verplichten om zijn tas af te doen."
+      "Nadat je iemand gefouilleerd hebt, is het niet toegestaan diegene te verplichten om zijn tas af te doen.",
+      "Er is geen vaststaande tijd die je moet wachten om een wapen af te fouilleren met F6, maar zorg dat de roleplay passend is bij de situatie. Misbruik leidt tot direct ontslag/gangstrike/opheffing.",
     ]
   },
   {

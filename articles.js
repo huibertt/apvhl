@@ -683,7 +683,7 @@ export const articles = [
       "Bij het innemen van wapens dien je het wapen fysiek gezien te hebben. Je mag ook het wapen pakken als diegene gezichtsbedekkende kleding, een kogelwerend vest of een holster draagt.",
       "Je mag geen kennis hebben van de illegale spullen die iemand op zak heeft, als hij niet voldoet aan de eisen van het afnemen. Dus als iemand een pistool op zak heeft die jij niet hebt gezien, maar pas tijdens het fouilleren aantreft, heb jij hier geen kennis van. Je mag deze wel fictief afpakken in /me om zodoende een veilige manier voor jezelf te creëren om het gebied te verlaten.",
       "Nadat je iemand gefouilleerd hebt, is het niet toegestaan diegene te verplichten om zijn tas af te doen.",
-      "Er is geen vaststaande tijd die je moet wachten om een wapen af te fouilleren met F6, maar zorg dat de roleplay passend is bij de situatie. Misbruik leidt tot direct ontslag/gangstrike/opheffing.",
+      "Er is geen vaststaande tijd die je moet wachten om een wapen af te fouilleren met F6, maar de overige voorwaarden blijven staan. Als je een wapen wil rippen, moet je deze fysiek gezien hebben. Zorg dat je hiervan ook een clip hebt indien er vragen zijn. Zorg dat de roleplay passend is bij de situatie. Misbruik leidt tot direct ontslag/gangstrike/opheffing. ",
     ]
   },
   {

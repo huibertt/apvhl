@@ -157,7 +157,8 @@ export const articles = [
       "Een scenario waarin je je eigen belang boven dat van een ander zet, of waarbij de roleplay van andere ingevuld wordt voor eigen belang en leidt tot onrealistische dwang welke een scenario onredelijk veranderd, zal worden gezien als een combinatie van Powergaming en FailRP.",
       "Indien een speler totaal geen intentie heeft om te roleplayen, kan een straf worden gegeven tot de 8e categorie.",
       "Wanneer je gevorderd wordt door een overheidsinstantie, dien je hieraan te voldoen. Mocht je aan deze vorderingen niet voldoen en je verstoord hierdoor een scenario, zal dit leiden tot een straf tot de 3e categorie.",
-      "Als een heli beschoten wordt, en de impact is te zien/horen op de heli, dient de heli af te koppelen en te landen om deze te inspecteren en te repareren. Pas dan mag er weer verder gevlogen worden."
+      "Als een heli beschoten wordt, en de impact is te zien/horen op de heli, dient de heli af te koppelen en te landen om deze te inspecteren en te repareren. Pas dan mag er weer verder gevlogen worden.",
+      "Terwijl je geboeid bent gebruik maken van je telefoon of portofoon.",
     ]
   },
   {

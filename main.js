@@ -98,37 +98,43 @@ renderArticles(articles);
 
 const searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', (event) => {
-  const query = event.target.value.toLowerCase();
+  const query = event.target.value.toLowerCase().trim();
+  if (!query) {
+    renderArticles(articles);
+    return;
+  }
+  const queryWords = query.split(/\s+/).filter(Boolean);
   
   const filteredArticles = articles.filter(article => {
-    const inLabel = article.label.toLowerCase().includes(query);
-    const inDescription = article.description && article.description.toLowerCase().includes(query);
-    let inList = false;
+    let textParts = [];
+    if (article.label) textParts.push(article.label);
+    if (article.description) textParts.push(article.description);
+
     if (article.list && Array.isArray(article.list)) {
-      inList = article.list.some(item => {
+      article.list.forEach(item => {
         if (typeof item === 'string') {
-          return item.toLowerCase().includes(query);
+          textParts.push(item);
         } else if (typeof item === 'object' && item.sublist && Array.isArray(item.sublist)) {
-          return item.sublist.some(nestedItem => nestedItem.toLowerCase().includes(query));
+          textParts.push(item.sublist.join(" "));
         }
       });
     }
     
-    let inSubarticles = false;
-    if (article.subarticles) {
-      inSubarticles = article.subarticles.some(sub => {
-        const subLabel = sub.label.toLowerCase().includes(query);
-        const subDescription = sub.description && sub.description.toLowerCase().includes(query);
-        let subList = false;
+    if (article.subarticles && Array.isArray(article.subarticles)) {
+      article.subarticles.forEach(sub => {
+        if (sub.label) textParts.push(sub.label);
+        if (sub.description) textParts.push(sub.description);
         if (sub.list && Array.isArray(sub.list)) {
-          subList = sub.list.some(item => item.toLowerCase().includes(query));
+          textParts.push(sub.list.join(" "));
         }
-        return subLabel || subDescription || subList;
       });
     }
     
-    return inLabel || inDescription || inList || inSubarticles;
+    const fullText = textParts.join(" ").toLowerCase();
+    
+    return queryWords.every(word => fullText.includes(word));
   });
   
   renderArticles(filteredArticles);
 });
+

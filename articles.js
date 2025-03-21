@@ -117,7 +117,7 @@ export const articles = [
     punishmentCategory: "4"
   },
   {
-    label: "Artikel 5: Fail RP",
+    label: "Artikel 6: Fail RP",
     description:
       "Onder deze regel vallen alle facetten die als onrealistisch kunnen worden beschouwd. Deze regel omvat de onderstaande punten, maar is niet beperkt tot deze gevallen. Vraag je tijdens het spelen in onze stad altijd af: 'Zou dit in het echt ook op deze manier kunnen gebeuren?'.",
     punishmentCategory: "4",
@@ -162,7 +162,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 6: Powergamen",
+    label: "Artikel 7: Powergamen",
     description:
       "Het bewust veranderen van een scenario, door onrealistische/onmogelijke componenten toe te voegen waardoor het voor de andere partij niet uit te spelen is. Hieronder enkele voorbeelden, maar deze regel is niet beperkt tot deze voorbeelden:",
     list: [
@@ -185,7 +185,7 @@ export const articles = [
     punishmentCategory: "4"
   },
   {
-    label: "Artikel 7: OOC / Karakter breken",
+    label: "Artikel 8: OOC / Karakter breken",
     description:
       "Het is nooit toegestaan om karakter te breken. Out of character gaan is dus niet de bedoeling, ook niet als er iets gebeurd wat tegen de APV is. Ook woorden als 'goden', 'staff', 'broodje', 'tickets', 'refund', 'bug', 'vakantie' enzovoorts.",
     list: [
@@ -195,7 +195,7 @@ export const articles = [
     punishmentCategory: "3"
   },
   {
-    label: "Artikel 8: Copbaiten",
+    label: "Artikel 9: Copbaiten",
     description:
       "Onder dit artikel vallen de onderstaande zaken. Deze regel omvat de onderstaande punten, maar is niet beperkt tot deze gevallen:",
     list: [
@@ -212,7 +212,7 @@ export const articles = [
     punishmentCategory: "2"
   },
   {
-    label: "Artikel 9: No value of life (NVOL)",
+    label: "Artikel 10: No value of life (NVOL)",
     description:
       "Het is verplicht waarde te hechten aan je leven. Enkele voorbeelden van NVOL vind je hieronder:",
     list: [
@@ -232,19 +232,19 @@ export const articles = [
     punishmentCategory: "4"
   },
   {
-    label: "Artikel 10: New life rule",
+    label: "Artikel 11: New life rule",
     description:
       "Wanneer een speler is doodgegaan in een scenario, dient een speler alles te vergeten uit dat specifieke scenario en de aanloop er naar toe. Je kan niet meer deelnemen aan dat scenario, en mag dus ook niet meer teruggaan naar de plek als het scenario zich daar nog bevind of om wraak te nemen. Ditzelfde geld voor een scenario verdeeld over meerdere dagen. Je kunt dan ook geen informatie meer doorgeven.",
     punishmentCategory: "3"
   },
   {
-    label: "Artikel 11: Microfoon, taal en stem",
+    label: "Artikel 12: Microfoon, taal en stem",
     description:
       "Iedere speler die speelt in onze stad is verplicht een microfoon te hebben en die ook te gebruiken. Mocht je hiervoor een sanctie ontvangen dien je te bewijzen, na het maken van een afspraak met een stafflid, dat je microfoon weer werkend is. Daarnaast is het verplicht om push to talk te gebruiken in de stad, zodat anderen geen last hebben van jouw achtergrond geluid.",
     punishmentCategory: "2",
     subarticles: [
       {
-        label: "Artikel 11A: Voice changer en soundpad",
+        label: "Artikel 12A: Voice changer en soundpad",
         description:
           "Het is voor een ieder toegestaan een voice changer te gebruiken, mits je voldoet aan onderstaande eisen:",
         list: [
@@ -256,13 +256,13 @@ export const articles = [
         punishmentCategory: "1"
       },
       {
-        label: "Artikel 11B: Earrape",
+        label: "Artikel 12B: Earrape",
         description:
           "Het is niet toegestaan om anderen tot last te zijn met je microfoon, voicechanger of soundpad door overmatig of extreem luid gebruik te maken van voornoemde middelen.",
         punishmentCategory: "2"
       },
       {
-        label: "Artikel 11C: De Nederlandse taal",
+        label: "Artikel 12C: De Nederlandse taal",
         description:
           "Tijdens het spelen van onze stad is het verplicht de Nederlandse taal te beheersen en toe te passen.",
         list: [
@@ -272,7 +272,7 @@ export const articles = [
         punishmentCategory: "1"
       },
       {
-        label: "Artikel 11D: Stemherkenning",
+        label: "Artikel 12D: Stemherkenning",
         description:
           "Het is toegestaan om personen aan hun stem te herkennen, tenzij:",
         list: [
@@ -283,7 +283,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 12: VDM",
+    label: "Artikel 13: VDM",
     description:
       "Onder VDM (Vehicle Deathmatch) wordt verstaan dat het niet toegestaan is je voer-, vaar- of vliegtuig te gebruiken als wapen. Hieronder vallen onderstaande voorbeelden, maar is niet beperkt tot deze gevallen.",
     list: [
@@ -301,7 +301,7 @@ export const articles = [
     punishmentCategory: "3"
   },
   {
-    label: "Artikel 13: RDM",
+    label: "Artikel 14: RDM",
     description:
       "Onder RDM (Random Deathmatch) wordt verstaan dat het niet toegestaan is burgers te vermoorden zonder aanleiding. <strong>Geldige redenen</strong> kunnen zijn, maar zijn niet beperkt tot:",
     list: [
@@ -326,7 +326,7 @@ export const articles = [
     punishmentCategory: "3"
   },
   {
-    label: "Artikel 14: Metagamen",
+    label: "Artikel 15: Metagamen",
     description:
       "Informatie verkregen buiten de game, mag niet ingame gebruikt worden (met uitzondering van 'in karakter' kanalen in de officiële Haarlem discords). Verder hanteren wij de volgende regels:",
     list: [
@@ -339,7 +339,7 @@ export const articles = [
     punishmentCategory: "3",
     subarticles: [
       {
-        label: "Artikel 14B: Stream sniping",
+        label: "Artikel 15B: Stream sniping",
         description:
           "Informatie verkregen buiten de game, via live streams, content creators of andere video content wordt gezien als streamsniping, en behelst een hogere sanctie dan metagaming.",
         punishmentCategory: "4"
@@ -347,7 +347,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 15: Streamers en content creators",
+    label: "Artikel 16: Streamers en content creators",
     description:
       "Als streamer of content creator ben je van harte welkom op Haarlem. Je bent van grote waarde voor de stad en entertainment voor de burgers. Om er voor te zorgen dat deze extra verantwoordelijkheid niet misbruikt wordt, hebben wij een aantal regels opgesteld:",
     list: [
@@ -360,7 +360,7 @@ export const articles = [
     punishmentCategory: "6"
   },
   {
-    label: "Artikel 16: Voertuig gebruik",
+    label: "Artikel 17: Voertuig gebruik",
     description:
       "Naast de bepalingen die besproken zijn in artikel 12: VDM, gelden de onderstaande regels. Deze regel omvat de onderstaande punten, maar is niet beperkt tot deze gevallen:",
     list: [
@@ -386,7 +386,7 @@ export const articles = [
     punishmentCategory: "1",
     subarticles: [
       {
-        label: "Artikel 16A: GTA rijstijl",
+        label: "Artikel 17A: GTA rijstijl",
         description:
           "Het onjuist gebruik van je voertuig, door onrealistisch rijgedrag. Enkele voorbeelden van GTA rijstijl zijn:",
         list: [
@@ -399,7 +399,7 @@ export const articles = [
         punishmentCategory: "2"
       },
       {
-        label: "Artikel 16B: Whitelisted job voertuigen",
+        label: "Artikel 17B: Whitelisted job voertuigen",
         list: [
           "Het is niet toegestaan om voertuigen van whitelisted job te gebruiken om andere dingen dan die job te doen.",
           "Het is niet toegestaan om eigen voertuigen te gebruiken bij het uitvoeren van whitelisted jobs."
@@ -409,7 +409,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 17: Sociale media",
+    label: "Artikel 18: Sociale media",
     description:
       "Het uitvoeren van criminele activiteiten via social media is niet toegestaan. Voorbeelden hiervan zijn:",
     punishmentCategory: "1",
@@ -428,7 +428,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 18: Kleding",
+    label: "Artikel 19: Kleding",
     description:
       "Binnen onze stad gelden er een aantal simpele regels omtrent kleding, om te zorgen dat het voor iedereen eerlijk en leuk blijft.",
     punishmentCategory: "1",
@@ -439,7 +439,7 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 18A: Impersonatie van overheidspersoneel",
+        label: "Artikel 19A: Impersonatie van overheidspersoneel",
         list: [
           "Het is niet toegestaan om jezelf voor te doen als een medewerker van een overheidsdienst.",
           "Het is niet toegestaan tactische vesten van een overheidsdienst te dragen.",
@@ -450,7 +450,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 19: Combatloggen",
+    label: "Artikel 20: Combatloggen",
     description:
       "Het spel afsluiten, terwijl je in een scenario zit is niet toegestaan. Het kan ook zijn dat je niet door eigen toedoen in een scenario beland, denk hierbij bijvoorbeeld aan een achtervolging. Ook dan is afsluiten niet toegestaan.",
     list: [
@@ -466,7 +466,7 @@ export const articles = [
     punishmentCategory: "4"
   },
   {
-    label: "Artikel 20: Communicatie met staff",
+    label: "Artikel 21: Communicatie met staff",
     description:
       "Mocht iets in de game niet gaan zoals deze APV beschrijft, kun je met /report een report aanmaken die indien mogelijk wordt opgepakt door het staffteam. Houd hierbij de volgende richtlijnen in acht:",
     punishmentCategory: "1",
@@ -477,7 +477,7 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 20A: Spammen",
+        label: "Artikel 21A: Spammen",
         list: [
           "Het is niet de bedoeling om reports te spammen. Ze zullen op volgorde van binnenkomst worden afgehandeld. Meer dan 2 reports per 30 seconden zal worden gezien als spam.",
           "Het is niet de bedoeling om informatie in /me te spammen."
@@ -487,14 +487,14 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 21: In karakter kanalen in de discord",
+    label: "Artikel 22: In karakter kanalen in de discord",
     description:
       "Het is toegestaan om de kanalen die onder het kopje 'In karakter' staan in onze discord, te gebruiken binnen de stad. Alles hierbuiten, is niet toegestaan en zal vallen onder Artikel 14: Metagamen. Momenteel zijn de volgende kanalen 'in karakter':",
     punishmentCategory: "2",
     list: ["Nieuws", "Twitter media", "Marktplaats"]
   },
   {
-    label: "Artikel 22: Criminele activiteiten",
+    label: "Artikel 23: Criminele activiteiten",
     punishmentCategory: "2",
     list: [
       "Het is niet toegestaan om voertuigen bij illegale deals te betrekken. Alle onderwereld goederen dienen gekocht te worden met geld of andere onderwereld goederen.",
@@ -503,7 +503,7 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 22A: Oplichten en scammen",
+        label: "Artikel 23A: Oplichten en scammen",
         description:
           "Het is toegestaan om op te lichten of te scammen binnen onze stad. Echter zitten hier wel regels aan verbonden.",
         list: [
@@ -519,7 +519,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 23: Overvallen",
+    label: "Artikel 24: Overvallen",
     punishmentCategory: "2",
     list: [
       "Er is geen maximum aan het aantal overvallers bij een overval.",
@@ -540,7 +540,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 24: Criminele groeperingen",
+    label: "Artikel 25: Criminele groeperingen",
     punishmentCategory: "1",
     list: [
       "Wanneer jij met 5 personen of meer deelneemt aan een crimineel scenario, zal dit gezien worden als een criminele groepering en zal je je moeten houden aan de geldende onderwereld regels.",
@@ -550,7 +550,7 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 24A: Gangwars",
+        label: "Artikel 25A: Gangwars",
         list: [
           "Een gangwar vraag je aan bij de onderwereld coördinator.",
           "Het is alleen toegestaan een wraakactie/gangwar te starten als je in roleplay bewijs hebt verzameld, en die ook kunt delen met de onderwereld coördinator.",
@@ -559,7 +559,7 @@ export const articles = [
         punishmentCategory: "2"
       },
       {
-        label: "Artikel 24B: Maximaal toegestaan aantal leden.",
+        label: "Artikel 25B: Maximaal toegestaan aantal leden.",
         list: [
           "Het omzeilen van de maximale aantal leden van een groepering afhankelijk van je level, leidt tot directe ontbinding van de gang en/of officiële status van de gang.",
           "Bovenstaande geldt voor erkende gangs, en niet erkende gangs.",
@@ -569,7 +569,7 @@ export const articles = [
         punishmentCategory: "1"
       },
       {
-        label: "Artikel 24C: Officiële gangs",
+        label: "Artikel 25C: Officiële gangs",
         list: [
           "Het misbruiken van het gang menu is niet toegestaan.",
           "F6 abuse is niet toegestaan, en zal direct bestraft worden met een gang strike.",
@@ -583,7 +583,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 25: Onderwereld spelers",
+    label: "Artikel 26: Onderwereld spelers",
     punishmentCategory: "3",
     list: [
       "Het is niet toegestaan om binnen 30 minuten dezelfde locatie te rippen.",
@@ -592,7 +592,7 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 25A: Wraakacties",
+        label: "Artikel 26A: Wraakacties",
         list: [
           "Na of tijdens het uitvoeren van een wraakactie dien je altijd de reden te benoemen richting de persoon waar je wraak op hebt genomen.",
           "Voor een wraakactie dien je voldoende onderbouwd bewijs te hebben, en zorg dat je dit kan overleggen indien hierom gevraagd wordt.",
@@ -604,7 +604,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 26: Ontvoeren en gijzelen",
+    label: "Artikel 27: Ontvoeren en gijzelen",
     punishmentCategory: "1",
     list: [
       "Het ontvoeren van burgers is toegestaan vanaf 2 agenten in dienst.",
@@ -616,7 +616,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 27: Rippen op het vaste land",
+    label: "Artikel 28: Rippen op het vaste land",
     punishmentCategory: "3",
     list: [
       "Het is niet toegestaan om binnen 30 minuten dezelfde locatie te rippen.",
@@ -636,7 +636,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 28: Rippen op het eiland + vliegdekschip",
+    label: "Artikel 29: Rippen op het eiland + vliegdekschip",
     punishmentCategory: "3",
     list: [
       "Het is niet toegestaan om binnen 30 minuten dezelfde locatie te rippen.",
@@ -650,7 +650,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 29: Politie en het eiland",
+    label: "Artikel 30: Politie en het eiland",
     punishmentCategory: "2",
     list: [
       "Het is niet toegestaan om vanaf het eiland op patrouillerende schepen of helikopters van de politie te schieten.",
@@ -665,7 +665,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 30: Onderwereld en het eiland",
+    label: "Artikel 31: Onderwereld en het eiland",
     punishmentCategory: "2",
     list: [
       "Op het eiland mag ook niet worden samen gewerkt.",
@@ -676,7 +676,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 31: Fouilleren en F6",
+    label: "Artikel 32: Fouilleren en F6",
     punishmentCategory: "2",
     list: [
       "Je kunt alleen iemand fouilleren wanneer je in het bezit bent van een wapen.",
@@ -687,7 +687,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 32: Bovenwereld spelers",
+    label: "Artikel 33: Bovenwereld spelers",
     punishmentCategory: "4",
     list: [
       "Het is niet toegestaan corrupt te zijn. Hieronder vallen de volgende zaken:",
@@ -700,7 +700,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 33: Burger naar Ambulance",
+    label: "Artikel 34: Burger naar Ambulance",
     punishmentCategory: "3",
     list: [
       "Het is niet toegestaan om zonder reden een overheidsvoertuig te stelen.",
@@ -712,7 +712,7 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 33A: Ambulance naar burger",
+        label: "Artikel 34A: Ambulance naar burger",
         list: [
           "Het is niet toegestaan burgers te beledigen of te provoceren in welke vorm dan ook.",
           "Het is niet toegestaan om onrealistische roleplay neer te zetten, of je mogelijkheden te misbruiken.",
@@ -738,7 +738,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 34: Burger naar Politie",
+    label: "Artikel 35: Burger naar Politie",
     punishmentCategory: "3",
     list: [
       "Het is niet toegestaan om in een ruim overtal scenario een agent dood te schieten, tenzij:",
@@ -754,7 +754,7 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 34A: Politie naar burger",
+        label: "Artikel 35A: Politie naar burger",
         list: [
           "Het is niet toegestaan om in een ruim overtal scenario, zonder dreiging een burger dood te schieten. Echter blijft dit altijd de eigen inschatting van de politieambtenaar maar schending hiervan kan leiden tot interne sancties.",
           "Het is niet toegestaan om iemand dood te schieten die geboeid is.",
@@ -768,7 +768,7 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 35: Helikopters en vliegtuigen",
+    label: "Artikel 36: Helikopters en vliegtuigen",
     description:
       "Om de vliegbewegingen binnen Haarlem in goede banen te leiden hanteren we de volgende regels m.b.t. helikopters en vliegtuigen:",
     punishmentCategory: "2",
@@ -780,19 +780,19 @@ export const articles = [
     ]
   },
   {
-    label: "Artikel 36: Erotische roleplay",
+    label: "Artikel 37: Erotische roleplay",
     punishmentCategory: "5",
     description:
       "Het is niet toegestaan om erotische roleplay uit te voeren. De enige mogelijke uitzondering is dansen in een stripclub, met toestemming van staff."
   },
   {
-    label: "Artikel 37: Weggeven van goederen",
+    label: "Artikel 38: Weggeven van goederen",
     punishmentCategory: "9",
     description:
       "Het weggeven en/of aannemen van goederen, van een speler die stopt of gestopt is, is niet toegestaan en zal worden bestraft met een account wipe en permanente ban."
   },
   {
-    label: "Artikel 38: Medewerking in staffzaak",
+    label: "Artikel 39: Medewerking in staffzaak",
     punishmentCategory: "5",
     list: [
       "Het is niet toegestaan om te liegen tegen staff.",
@@ -801,11 +801,23 @@ export const articles = [
     ],
     subarticles: [
       {
-        label: "Artikel 38A: Voordoen als staff",
+        label: "Artikel 39A: Voordoen als staff",
         description:
           "Het voordoen als, of uitspraken gebruiken om de indruk te wekken dat je lid bent van het staffteam is niet toegestaan.",
         punishmentCategory: "7"
       }
+    ]
+  },
+  {
+    label: "Artikel 40: Greenzones",
+    description:
+      "Het is niet toegestaan om illegale zaken op enige wijze uit te voeren in een greenzone. Hier vallen onder andere de volgende zaken onder:",
+    punishmentCategory: "3",
+    list: [
+      "Gijzelen",
+      "Scammen",
+      "Rippen",
+      "Schieten",
     ]
   }
 ];

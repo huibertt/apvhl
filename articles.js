@@ -688,7 +688,7 @@ export const articles = [
   },
   {
     label: "Artikel 33: Bovenwereld spelers",
-    punishmentCategory: "4",
+    punishmentCategory: "7",
     list: [
       "Het is niet toegestaan corrupt te zijn. Hieronder vallen de volgende zaken:",
       {
